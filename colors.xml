@@ -120,19 +120,19 @@
 
 	<colorScheme name="darkOS_stone">
 		<variables>
-			<mainColor></mainColor>
+			<mainColor>658780FF</mainColor>
 		</variables>
 	</colorScheme>
 
 	<colorScheme name="darkOS_turquoise">
 		<variables>
-			<mainColor>658780FF</mainColor>
+			<mainColor>288e80FF</mainColor>
 		</variables>
 	</colorScheme>
 	
 	<colorScheme name="darkOS_yellow">
 		<variables>
-			<mainColor>288e80FF</mainColor>
+			<mainColor>ed9728FF</mainColor>
 		</variables>
 	</colorScheme>
 </theme>
