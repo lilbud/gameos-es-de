@@ -109,7 +109,7 @@
 	<view name="gamelist">
 		<image name="logo">
 			<path>${systemLogo}</path>
-			<maxSize>0.1 0.1</maxSize>
+			<maxSize>0.1 0.06</maxSize>
 		</image>
 
 		<grid name="systemCarousel">
