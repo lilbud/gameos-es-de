@@ -5,6 +5,7 @@
         <view name="gamelist">
             <grid name="systemCarousel">
                 <itemSize>0.1248 0.1248</itemSize>
+                <size>0.94 0.82</size>
             </grid>
         </view>
     </variant>
