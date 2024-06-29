@@ -1,0 +1,68 @@
+<theme>
+    <fontSize name="medium, large">
+		<variables>
+			<gameNamePos>0.5 0.18</gameNamePos>
+			<mdDescriptionPos>0.5 0.3</mdDescriptionPos>
+		</variables>
+	</fontSize>
+
+    <variant name="Default">
+
+    <aspectRatio name="16:9">
+        <fontSize name="medium">
+            <variables>
+                <mdFontSize>0.024</mdFontSize>
+                <gameNameFontSize>0.05</gameNameFontSize>
+                <mdLblRatingPos>0.5 0.24</mdLblRatingPos>
+                <mdRatingPos>0.55 0.24</mdRatingPos>
+                <mdLblPlayersPos>0.59 0.24</mdLblPlayersPos>
+                <mdPlayersPos>0.646 0.24</mdPlayersPos>
+                <mdLblGenrePos>0.686 0.24</mdLblGenrePos>
+                <mdGenrePos>0.735 0.24</mdGenrePos>
+            </variables>
+        </fontSize>
+    
+        <fontSize name="large">
+            <variables>
+                <mdFontSize>0.027</mdFontSize>
+                <gameNameFontSize>0.056</gameNameFontSize>
+                <mdLblRatingPos>0.5 0.24</mdLblRatingPos>
+                <mdRatingPos>0.555 0.24</mdRatingPos>
+                <mdLblPlayersPos>0.595 0.24</mdLblPlayersPos>
+                <mdPlayersPos>0.658 0.24</mdPlayersPos>
+                <mdLblGenrePos>0.698 0.24</mdLblGenrePos>
+                <mdGenrePos>0.752 0.24</mdGenrePos>
+            </variables>
+        </fontSize>
+    </aspectRatio>
+
+    <aspectRatio name="4:3">
+        <fontSize name="medium">
+            <variables>
+                <mdFontSize>0.024</mdFontSize>
+                <gameNameFontSize>0.05</gameNameFontSize>
+                <mdLblRatingPos>0.5 0.24</mdLblRatingPos>
+                <mdRatingPos>0.565 0.24</mdRatingPos>
+                <mdLblPlayersPos>0.61 0.24</mdLblPlayersPos>
+                <mdPlayersPos>0.68 0.24</mdPlayersPos>
+                <mdLblGenrePos>0.73 0.24</mdLblGenrePos>
+                <mdGenrePos>0.795 0.24</mdGenrePos>
+            </variables>
+        </fontSize>
+    
+        <fontSize name="large">
+            <variables>
+                <mdFontSize>0.027</mdFontSize>
+                <gameNameFontSize>0.056</gameNameFontSize>
+                <mdLblRatingPos>0.5 0.24</mdLblRatingPos>
+                <mdRatingPos>0.575 0.24</mdRatingPos>
+                <mdLblPlayersPos>0.63 0.24</mdLblPlayersPos>
+                <mdPlayersPos>0.71 0.24</mdPlayersPos>
+                <mdLblGenrePos>0.77 0.24</mdLblGenrePos>
+                <mdGenrePos>0.84 0.24</mdGenrePos>
+            </variables>
+        </fontSize>
+    </aspectRatio>
+
+    </variant>
+</theme>

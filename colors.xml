@@ -1,0 +1,138 @@
+<theme>
+    <colorScheme name="gameOS, darkOS_blue, darkOS_brown, darkOS_gray, darkOS_green, darkOS_pink, darkOS_red, darkOS_lightblue, darkOS_lightbrown, darkOS_lightgray, darkOS_lightgreen, darkOS_lightpink, darkOS_lightred, darkOS_magenta, darkOS_orange, darkOS_purple, darkOS_steel, darkOS_stone, darkOS_turquoise, darkOS_yellow">
+        <variables>
+            <textColor>FFFFFFFF</textColor>
+            <logoPath>./assets/img/gameOS-logo.svg</logoPath>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="darkOS_blue, darkOS_brown, darkOS_gray, darkOS_green, darkOS_pink, darkOS_red, darkOS_lightblue, darkOS_lightbrown, darkOS_lightgray, darkOS_lightgreen, darkOS_lightpink, darkOS_lightred, darkOS_magenta, darkOS_orange, darkOS_purple, darkOS_steel, darkOS_stone, darkOS_turquoise, darkOS_yellow">
+        <variables>
+            <textColor>FFFFFFFF</textColor>
+            <carouselBackgroundColor>1F1F1FFF</carouselBackgroundColor>
+            <carouselItemColor>303030FF</carouselItemColor>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="gameOS">
+        <variables>
+            <mainColor>f00880FF</mainColor>
+            <carouselBackgroundColor>222b48FF</carouselBackgroundColor>
+            <carouselItemColor>2a3457FF</carouselItemColor>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="darkOS_blue">
+		<variables>
+			<mainColor>30519cFF</mainColor>
+		</variables>
+	</colorScheme>
+
+	<colorScheme name="darkOS_brown">
+		<variables>
+			<mainColor>806044FF</mainColor>
+		</variables>
+	</colorScheme>
+
+	<colorScheme name="darkOS_gray">
+		<variables>
+			<mainColor>5e5c5dFF</mainColor>
+		</variables>
+	</colorScheme>
+
+	<colorScheme name="darkOS_green">
+		<variables>
+			<mainColor>288928FF</mainColor>
+		</variables>
+	</colorScheme>
+
+	<colorScheme name="darkOS_pink">
+		<variables>
+			<mainColor>c52884FF</mainColor>
+		</variables>
+	</colorScheme>
+
+	<colorScheme name="darkOS_red">
+		<variables>
+			<mainColor>ab283bFF</mainColor>
+		</variables>
+	</colorScheme>
+
+	<colorScheme name="darkOS_lightblue">
+		<variables>
+			<mainColor>288dcfFF</mainColor>
+		</variables>
+	</colorScheme>
+
+	<colorScheme name="darkOS_lightbrown">
+		<variables>
+			<mainColor>7e715cFF</mainColor>
+		</variables>
+	</colorScheme>
+
+	<colorScheme name="darkOS_lightgray">
+		<variables>
+			<mainColor>818181FF</mainColor>
+		</variables>
+	</colorScheme>
+
+	<colorScheme name="darkOS_lightgreen">
+		<variables>
+			<mainColor>65b032FF</mainColor>
+		</variables>
+	</colorScheme>
+
+	<colorScheme name="darkOS_lightpink">
+		<variables>
+			<mainColor>ee6694FF</mainColor>
+		</variables>
+	</colorScheme>
+
+	<colorScheme name="darkOS_lightred">
+		<variables>
+			<mainColor>e52939FF</mainColor>
+		</variables>
+	</colorScheme>
+
+	<colorScheme name="darkOS_magenta">
+		<variables>
+			<mainColor>b857c6FF</mainColor>
+		</variables>
+	</colorScheme>
+
+	<colorScheme name="darkOS_orange">
+		<variables>
+			<mainColor>ed5b28FF</mainColor>
+		</variables>
+	</colorScheme>
+
+	<colorScheme name="darkOS_purple">
+		<variables>
+			<mainColor>825fb1FF</mainColor>
+		</variables>
+	</colorScheme>
+
+	<colorScheme name="darkOS_steel">
+		<variables>
+			<mainColor>768294FF</mainColor>
+		</variables>
+	</colorScheme>
+
+	<colorScheme name="darkOS_stone">
+		<variables>
+			<mainColor></mainColor>
+		</variables>
+	</colorScheme>
+
+	<colorScheme name="darkOS_turquoise">
+		<variables>
+			<mainColor>658780FF</mainColor>
+		</variables>
+	</colorScheme>
+	
+	<colorScheme name="darkOS_yellow">
+		<variables>
+			<mainColor>288e80FF</mainColor>
+		</variables>
+	</colorScheme>
+</theme>

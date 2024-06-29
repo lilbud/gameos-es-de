@@ -1,0 +1,13 @@
+<theme>
+    <view name="all">
+        <sound name="select">
+            <path>./assets/sounds/accept.wav</path>
+        </sound>
+        <sound name="back">
+            <path>./assets/sounds/back.wav</path>
+        </sound>
+        <sound name="scroll">
+            <path>./assets/sounds/navigation.wav</path>
+        </sound>
+    </view>
+</theme>

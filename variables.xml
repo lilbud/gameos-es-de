@@ -1,0 +1,10 @@
+<theme>
+	<include>./colors.xml</include>
+
+    <variables>
+        <fontPath>./assets/fonts/OpenSans-Semibold.ttf</fontPath>
+        <systemLogo>./assets/img/logos/${system.theme}.svg</systemLogo>
+        <selectorImage>./assets/img/selector.svg</selectorImage>
+        <sysBackground>./assets/img/backgrounds/${system.theme}.webp</sysBackground>
+    </variables>
+</theme>

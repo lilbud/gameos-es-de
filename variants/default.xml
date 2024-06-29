@@ -1,0 +1,174 @@
+<theme>
+
+    <variables>
+        <sysBackground>./../assets/img/backgrounds/${system.theme}.webp</sysBackground>
+    </variables>
+
+    <aspectRatio name="16:9">
+        <fontSize name="medium">
+            <variables>
+                <mdFontSize>0.024</mdFontSize>
+                <gameNameFontSize>0.05</gameNameFontSize>
+                <mdLblRatingPos>0.5 0.24</mdLblRatingPos>
+                <mdRatingPos>0.55 0.24</mdRatingPos>
+                <mdLblPlayersPos>0.59 0.24</mdLblPlayersPos>
+                <mdPlayersPos>0.646 0.24</mdPlayersPos>
+                <mdLblGenrePos>0.686 0.24</mdLblGenrePos>
+                <mdGenrePos>0.735 0.24</mdGenrePos>
+            </variables>
+        </fontSize>
+    
+        <fontSize name="large">
+            <variables>
+                <mdFontSize>0.027</mdFontSize>
+                <gameNameFontSize>0.056</gameNameFontSize>
+                <mdLblRatingPos>0.5 0.24</mdLblRatingPos>
+                <mdRatingPos>0.555 0.24</mdRatingPos>
+                <mdLblPlayersPos>0.595 0.24</mdLblPlayersPos>
+                <mdPlayersPos>0.658 0.24</mdPlayersPos>
+                <mdLblGenrePos>0.698 0.24</mdLblGenrePos>
+                <mdGenrePos>0.752 0.24</mdGenrePos>
+            </variables>
+        </fontSize>
+    </aspectRatio>
+
+    <aspectRatio name="4:3">
+        <fontSize name="medium">
+            <variables>
+                <mdFontSize>0.024</mdFontSize>
+                <gameNameFontSize>0.05</gameNameFontSize>
+                <mdLblRatingPos>0.5 0.24</mdLblRatingPos>
+                <mdRatingPos>0.565 0.24</mdRatingPos>
+                <mdLblPlayersPos>0.61 0.24</mdLblPlayersPos>
+                <mdPlayersPos>0.68 0.24</mdPlayersPos>
+                <mdLblGenrePos>0.73 0.24</mdLblGenrePos>
+                <mdGenrePos>0.795 0.24</mdGenrePos>
+            </variables>
+        </fontSize>
+    
+        <fontSize name="large">
+            <variables>
+                <mdFontSize>0.027</mdFontSize>
+                <gameNameFontSize>0.056</gameNameFontSize>
+                <mdLblRatingPos>0.5 0.24</mdLblRatingPos>
+                <mdRatingPos>0.575 0.24</mdRatingPos>
+                <mdLblPlayersPos>0.63 0.24</mdLblPlayersPos>
+                <mdPlayersPos>0.71 0.24</mdPlayersPos>
+                <mdLblGenrePos>0.77 0.24</mdLblGenrePos>
+                <mdGenrePos>0.84 0.24</mdGenrePos>
+            </variables>
+        </fontSize>
+    </aspectRatio>
+
+    <variant name="Default">
+        <view name="system, gamelist">
+            <grid name="systemCarousel">
+                <pos>0.5 0.77</pos>
+                <size>0.958 0.21</size>
+                <origin>0.5 0</origin>
+                <backgroundColor>${carouselItemColor}</backgroundColor>
+                <itemSize>0.15 0.20</itemSize>
+                <imageFit>contain</imageFit>
+                <imageColor>FFFFFFFF</imageColor>
+                <selectorColor>${mainColor}</selectorColor>
+                <selectorLayer>middle</selectorLayer>
+                <selectorRelativeScale>1</selectorRelativeScale>
+                <itemSpacing>0.01 0.01</itemSpacing>
+            </grid>
+
+            <image name="carousel_background">
+                <path>./../assets/img/box.png</path>
+                <pos>0 0.75</pos>
+                <origin>0 0</origin>
+                <size>1 0.3</size>
+                <color>${carouselBackgroundColor}</color>
+            </image>
+        </view>
+
+        <view name="gamelist">
+            <grid name="systemCarousel">
+                <imageType>marquee</imageType>
+                <imageRelativeScale>0.8</imageRelativeScale>
+            </grid>
+
+            <video name="background">
+                <defaultImage>${sysBackground}</defaultImage>
+                <imageType>fanart, screenshot, titlescreen</imageType>
+                <pos>0.5 0.5</pos>
+                <origin>0.5 0.5</origin>
+                <cropSize>1 1</cropSize>
+                <zIndex>0</zIndex>
+                <opacity>0.3</opacity>
+                <audio>true</audio>
+            </video>
+    
+            <image name="gameImage">
+                <imageType>miximage, titlescreen, cover</imageType>
+                <pos>0.275 0.362</pos>
+                <origin>0.5 0.5</origin>
+                <interpolation>linear</interpolation>
+                <maxSize>0.35 0.46</maxSize>
+            </image>
+
+            <text name="gamename">
+                <pos>${gameNamePos}</pos>
+                <container>true</container>
+                <containerType>horizontal</containerType>
+                <size>0.4 0.05</size>
+                <metadata>name</metadata>
+                <fontSize>${gameNameFontSize}</fontSize>
+            </text>
+    
+            <text name="description">
+                <pos>${mdDescriptionPos}</pos>
+                <metadata>description</metadata>
+                <size>0.4 0.32</size>
+                <containerScrollSpeed>3</containerScrollSpeed>
+            </text>
+    
+            <text name="md_lbl_rating">
+                <pos>${mdLblRatingPos}</pos>
+                <text>Rating:</text>
+            </text>
+    
+            <text name="md_rating">
+                <pos>${mdRatingPos}</pos>
+                <metadata>rating</metadata>
+            </text>
+    
+            <text name="md_lbl_players">
+                <pos>${mdLblPlayersPos}</pos>
+                <text>Players:</text>
+            </text>
+    
+            <text name="md_players">
+                <pos>${mdPlayersPos}</pos>
+                <metadata>players</metadata>
+            </text>
+    
+            <text name="md_lbl_genre">
+                <pos>${mdLblGenrePos}</pos>
+                <text>Genre:</text>
+            </text>
+    
+            <text name="md_genre">
+                <pos>${mdGenrePos}</pos>
+                <metadata>genre</metadata>
+            </text>
+    
+            <badges name="badges">
+                <origin>0 0</origin>
+                <pos>0.5 0.13</pos>
+                <size>0.23 0.02962962962963</size>
+                <itemMargin>0.005208333333333 -1</itemMargin>
+                <lines>1</lines>
+                <itemsPerLine>9</itemsPerLine>
+                <slots>all</slots>
+                <badgeIconColor>FFFFFFFF</badgeIconColor>
+                <controllerSize>0.8</controllerSize>
+                <folderLinkSize>0.8</folderLinkSize>
+                <horizontalAlignment>left</horizontalAlignment>
+            </badges>
+        </view>
+    </variant>
+</theme>

@@ -1,0 +1,165 @@
+<theme>
+	<include>./variables.xml</include>
+	<include>./fontsizes.xml</include>
+	<include>./navigationsounds.xml</include>
+
+	<!-- variants -->
+	<variant name="Default">
+		<include>./variants/default.xml</include>
+	</variant>
+
+	<variant name="grid-3">
+		<include>./variants/grid/grid-3.xml</include>
+	</variant>
+
+	<variant name="grid-4">
+		<include>./variants/grid/grid-4.xml</include>
+	</variant>
+
+	<variant name="grid-5">
+		<include>./variants/grid/grid-5.xml</include>
+	</variant>
+
+	<variant name="grid-6">
+		<include>./variants/grid/grid-6.xml</include>
+	</variant>
+
+	<variant name="grid-7">
+		<include>./variants/grid/grid-7.xml</include>
+	</variant>
+
+	<variant name="grid-8">
+		<include>./variants/grid/grid-8.xml</include>
+	</variant>
+
+	<!-- system, gamelist -->
+	<view name="system, gamelist">
+		<helpsystem name="help">
+			<pos>0.98 0.9515</pos>
+			<textColor>FFFFFFFF</textColor>
+			<iconColor>FFFFFFFF</iconColor>
+			<origin>1 0</origin>
+			<fontSize>0.02</fontSize>
+		</helpsystem>
+
+		<image name="help_gradient">
+			<path>./assets/img/box.png</path>
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<size>1 0.07</size>
+			<color>00000000</color>
+			<colorEnd>00000070</colorEnd>
+			<gradientType>vertical</gradientType>
+			<zIndex>60</zIndex>
+		</image>
+
+		<image name="logo">
+			<pos>0.03 0.03</pos>
+			<origin>0 0</origin>
+			<color>${mainColor}</color>
+			<gradientType>horizontal</gradientType>
+			<zIndex>1</zIndex>
+		</image>
+	</view>
+
+	<!-- system -->
+    <view name="system">
+		<grid name="systemCarousel">
+			<pos>0.5 0.77</pos>
+			<size>0.958 0.21</size>
+			<origin>0.5 0</origin>
+			<backgroundColor>${carouselItemColor}</backgroundColor>
+			<itemSize>0.15 0.20</itemSize>
+			<imageFit>contain</imageFit>
+			<imageColor>FFFFFFFF</imageColor>
+			<selectorColor>${mainColor}</selectorColor>
+			<selectorLayer>middle</selectorLayer>
+			<selectorRelativeScale>1</selectorRelativeScale>
+			<itemSpacing>0.01 0.01</itemSpacing>
+			<staticImage>${systemLogo}</staticImage>
+			<imageRelativeScale>0.8</imageRelativeScale>
+			<unfocusedItemOpacity>0.5</unfocusedItemOpacity>
+		</grid>
+
+		<image name="carousel_background">
+			<path>./assets/img/box.png</path>
+			<pos>0 0.75</pos>
+			<origin>0 0</origin>
+			<size>1 0.3</size>
+			<color>${carouselBackgroundColor}</color>
+		</image>
+
+		<image name="background">
+			<path>${sysBackground}</path>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<cropSize>1 1</cropSize>
+			<zIndex>0</zIndex>
+			<opacity>0.3</opacity>
+		</image>
+
+		<image name="logo">
+			<path>${logoPath}</path>
+			<color>${mainColor}</color>
+			<maxSize>0.1 0.1</maxSize>
+			<color>FFFFFFFF</color>
+		</image>
+	</view>
+	<!-- gamelist -->
+	<view name="gamelist">
+		<image name="logo">
+			<path>${systemLogo}</path>
+			<maxSize>0.1 0.1</maxSize>
+		</image>
+
+		<grid name="systemCarousel">
+			<pos>0.03 0.1</pos>
+			<size>0.94 0.9</size>
+			<origin>0 0</origin>
+			<backgroundColor>${carouselItemColor}</backgroundColor>
+			<imageFit>contain</imageFit>
+			<imageColor>FFFFFFFF</imageColor>
+			<selectorColor>${mainColor}</selectorColor>
+			<selectorLayer>middle</selectorLayer>
+			<selectorRelativeScale>1</selectorRelativeScale>
+			<itemSpacing>0.01 0.01</itemSpacing>
+			<imageRelativeScale>0.8</imageRelativeScale>
+			<unfocusedItemOpacity>0.5</unfocusedItemOpacity>
+		</grid>
+
+		<text name="gamename, description, md_lbl_rating, md_lbl_players, md_lbl_genre, md_rating, md_players, md_genre">
+			<color>FFFFFFFF</color>
+			<defaultValue>:space:</defaultValue>
+			<fontPath>${fontPath}</fontPath>
+		</text>
+
+		<text name="description, md_lbl_rating, md_lbl_players, md_lbl_genre, md_rating, md_players, md_genre">
+			<fontSize>0.024</fontSize>
+		</text>
+
+		<text name="md_lbl_rating, md_lbl_players, md_lbl_genre">
+			<color>${mainColor}</color>
+		</text>
+
+		<text name="md_rating, md_genre, md_players">
+			<container>true</container>
+			<containerType>horizontal</containerType>
+		</text>
+
+		<grid name="systemCarousel">
+			<selectorImage>./assets/img/selector.svg</selectorImage>
+		</grid>
+
+		<badges name="badges">
+			<customBadgeIcon badge="folder">./assets/img/badges/badge-folder.svg</customBadgeIcon>
+			<customBadgeIcon badge="broken">./assets/img/badges/badge-broken.svg</customBadgeIcon>
+			<customBadgeIcon badge="completed">./assets/img/badges/badge-completed.svg</customBadgeIcon>
+			<customBadgeIcon badge="favorite">./assets/img/badges/badge-favorite.svg</customBadgeIcon>
+			<customBadgeIcon badge="kidgame">./assets/img/badges/badge-kidgame.svg</customBadgeIcon>
+			<customBadgeIcon badge="collection">./assets/img/badges/badge-collection.svg</customBadgeIcon>
+			<customBadgeIcon badge="controller">./assets/img/badges/badge-controller.svg</customBadgeIcon>
+			<customBadgeIcon badge="altemulator">./assets/img/badges/badge-altemulator.svg</customBadgeIcon>
+			<customBadgeIcon badge="manual">./assets/img/badges/badge-manual.svg</customBadgeIcon>
+		</badges>
+	</view>
+</theme>

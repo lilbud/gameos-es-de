@@ -1,0 +1,148 @@
+<themeCapabilities>
+	<themeName>Game OS Port</themeName>
+
+	<fontSize>medium</fontSize>
+    <fontSize>large</fontSize>
+
+    <aspectRatio>16:9</aspectRatio>
+    <aspectRatio>4:3</aspectRatio>
+
+	<!-- color schemes -->
+	<colorScheme name="gameOS">
+		<label>Game OS</label>
+	</colorScheme>
+
+	<colorScheme name="darkOS_blue">
+		<label>Dark OS Blue</label>
+	</colorScheme>
+
+	<colorScheme name="darkOS_blue">
+		<label>Dark OS Blue</label>
+	</colorScheme>
+
+	<colorScheme name="darkOS_brown">
+		<label>Dark OS Brown</label>
+	</colorScheme>
+
+	<colorScheme name="darkOS_gray">
+		<label>Dark OS Gray</label>
+	</colorScheme>
+
+	<colorScheme name="darkOS_green">
+		<label>Dark OS Green</label>
+	</colorScheme>
+
+	<colorScheme name="darkOS_pink">
+		<label>Dark OS Pink</label>
+	</colorScheme>
+
+	<colorScheme name="darkOS_red">
+		<label>Dark OS Red</label>
+	</colorScheme>
+
+	<colorScheme name="darkOS_lightblue">
+		<label>Dark OS Light Blue</label>
+	</colorScheme>
+
+	<colorScheme name="darkOS_lightbrown">
+		<label>Dark OS Light Brown</label>
+	</colorScheme>
+
+	<colorScheme name="darkOS_lightgray">
+		<label>Dark OS Light Gray</label>
+	</colorScheme>
+
+	<colorScheme name="darkOS_lightgreen">
+		<label>Dark OS Light Green</label>
+	</colorScheme>
+
+	<colorScheme name="darkOS_lightpink">
+		<label>Dark OS Light Pink</label>
+	</colorScheme>
+
+	<colorScheme name="darkOS_lightred">
+		<label>Dark OS Light Red</label>
+	</colorScheme>
+
+	<colorScheme name="darkOS_magenta">
+		<label>Dark OS Magenta</label>
+	</colorScheme>
+
+	<colorScheme name="darkOS_orange">
+		<label>Dark OS Orange</label>
+	</colorScheme>
+
+	<colorScheme name="darkOS_purple">
+		<label>Dark OS Purple</label>
+	</colorScheme>
+
+	<colorScheme name="darkOS_steel">
+		<label>Dark OS Steel</label>
+	</colorScheme>
+
+	<colorScheme name="darkOS_stone">
+		<label>Dark OS Stone</label>
+	</colorScheme>
+
+	<colorScheme name="darkOS_turquoise">
+		<label>Dark OS Turquoise</label>
+	</colorScheme>
+
+	<colorScheme name="darkOS_yellow">
+		<label>Dark OS Yellow</label>
+	</colorScheme>
+
+	<!-- VARIANTS -->
+	<variant name="Default">
+	    <label>Default</label>
+	    <selectable>True</selectable>
+	</variant>
+
+	<variant name="grid-3">
+	    <label>Grid (3 Columns)</label>
+	    <selectable>True</selectable>
+	</variant>
+
+	<variant name="grid-4">
+	    <label>Grid (4 Columns)</label>
+	    <selectable>True</selectable>
+	</variant>
+
+	<variant name="grid-5">
+	    <label>Grid (5 Columns)</label>
+	    <selectable>True</selectable>
+	</variant>
+
+	<variant name="grid-6">
+	    <label>Grid (6 Columns)</label>
+	    <selectable>True</selectable>
+	</variant>
+
+	<variant name="grid-7">
+	    <label>Grid (7 Columns)</label>
+	    <selectable>True</selectable>
+	</variant>
+	
+	<variant name="grid-8">
+	    <label>Grid (8 Columns)</label>
+	    <selectable>True</selectable>
+	</variant>
+
+	<transitions name="transitions">
+		<label>transitions</label>
+		<selectable>false</selectable>
+		<systemToSystem>instant</systemToSystem>
+		<systemToGamelist>instant</systemToGamelist>
+		<gamelistToGamelist>instant</gamelistToGamelist>
+		<gamelistToSystem>instant</gamelistToSystem>
+		<startupToSystem>instant</startupToSystem>
+		<startupToGamelist>instant</startupToGamelist>
+	</transitions>
+
+	<suppressTransitionProfiles>
+		<entry>builtin-instant</entry>
+		<entry>builtin-slide</entry>
+		<entry>builtin-fade</entry>
+	</suppressTransitionProfiles>
+
+</themeCapabilities>

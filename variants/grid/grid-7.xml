@@ -1,0 +1,11 @@
+<theme>
+    <include>./grid_variables.xml</include>
+
+    <variant name="grid-7">
+        <view name="gamelist">
+            <grid name="systemCarousel">
+                <itemSize>0.1248 0.1248</itemSize>
+            </grid>
+        </view>
+    </variant>
+</theme>
