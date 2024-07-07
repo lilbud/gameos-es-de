@@ -98,8 +98,9 @@
                 <origin>0.5 0.5</origin>
                 <cropSize>1 1</cropSize>
                 <zIndex>0</zIndex>
-                <opacity>0.3</opacity>
+                <opacity>0.4</opacity>
                 <audio>true</audio>
+                <interpolation>linear</interpolation>
             </video>
     
             <image name="gameImage">

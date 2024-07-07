@@ -95,7 +95,8 @@
 			<origin>0.5 0.5</origin>
 			<cropSize>1 1</cropSize>
 			<zIndex>0</zIndex>
-			<opacity>0.8</opacity>
+			<opacity>0.7</opacity>
+			<interpolation>linear</interpolation>
 		</image>
 
 		<image name="logo">
@@ -134,7 +135,7 @@
 		</text>
 
 		<text name="description, md_lbl_rating, md_lbl_players, md_lbl_genre, md_rating, md_players, md_genre">
-			<fontSize>0.024</fontSize>
+			<fontSize>${mdFontSize}</fontSize>
 		</text>
 
 		<text name="md_lbl_rating, md_lbl_players, md_lbl_genre">
