@@ -145,6 +145,7 @@
 		<text name="md_rating, md_genre, md_players">
 			<container>true</container>
 			<containerType>horizontal</containerType>
+			<size>0.04 0.035</size>
 		</text>
 
 		<grid name="systemCarousel">
