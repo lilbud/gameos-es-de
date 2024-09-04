@@ -1,5 +1,8 @@
 <theme>
 	<include>./variables.xml</include>
+
+	<!-- this file needs to be included despite all of the variables -->
+	<!-- within being moved to default, no i don't know why -->
 	<include>./fontsizes.xml</include>
 	<include>./navigationsounds.xml</include>
 

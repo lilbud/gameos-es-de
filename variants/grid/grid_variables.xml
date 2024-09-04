@@ -1,42 +1,27 @@
 <theme>
-    <aspectRatio name="4:3">
-        <variables>
-            <mdLblRatingPos>0.5 0.03</mdLblRatingPos>
-            <mdRatingPos>0.57 0.03</mdRatingPos>
-            <mdLblPlayersPos>0.615 0.03</mdLblPlayersPos>
-            <mdPlayersPos>0.69 0.03</mdPlayersPos>
-            <mdLblGenrePos>0.75 0.03</mdLblGenrePos>
-            <mdGenrePos>0.82 0.03</mdGenrePos>
-        </variables>
-
+    <aspectRatio name="4:3, 16:9">
         <view name="gamelist">
             <text name="md_lbl_rating">
-                <pos>${mdLblRatingPos}</pos>
-                <text>Rating:</text>
+                <text>${langLabelRating}</text>
             </text>
     
             <text name="md_rating">
-                <pos>${mdRatingPos}</pos>
                 <metadata>rating</metadata>
             </text>
     
             <text name="md_lbl_players">
-                <pos>${mdLblPlayersPos}</pos>
-                <text>Players:</text>
+                <text>${langLabelPlayers}</text> 
             </text>
     
             <text name="md_players">
-                <pos>${mdPlayersPos}</pos>
                 <metadata>players</metadata>
             </text>
     
             <text name="md_lbl_genre">
-                <pos>${mdLblGenrePos}</pos>
-                <text>Genre:</text>
+                <text>${langLabelGenre}</text>
             </text>
     
             <text name="md_genre">
-                <pos>${mdGenrePos}</pos>
                 <metadata>genre</metadata>
                 <size>0.135 0.036</size>
             </text>
@@ -55,6 +40,43 @@
         </view>
     </aspectRatio>
 
+    <aspectRatio name="4:3">
+        <variables>
+            <mdLblRatingPos>0.5 0.03</mdLblRatingPos>
+            <mdRatingPos>0.57 0.03</mdRatingPos>
+            <mdLblPlayersPos>0.615 0.03</mdLblPlayersPos>
+            <mdPlayersPos>0.69 0.03</mdPlayersPos>
+            <mdLblGenrePos>0.75 0.03</mdLblGenrePos>
+            <mdGenrePos>0.82 0.03</mdGenrePos>
+        </variables>
+
+        <view name="gamelist">
+            <text name="md_lbl_rating">
+                <pos>${mdLblRatingPos}</pos>
+            </text>
+
+            <text name="md_rating">
+                <pos>${mdRatingPos}</pos>
+            </text>
+
+            <text name="md_lbl_players">
+                <pos>${mdLblPlayersPos}</pos>
+            </text>
+
+            <text name="md_players">
+                <pos>${mdPlayersPos}</pos>
+            </text>
+
+            <text name="md_lbl_genre">
+                <pos>${mdLblGenrePos}</pos>
+            </text>
+
+            <text name="md_genre">
+                <pos>${mdGenrePos}</pos>
+            </text>
+        </view>
+    </aspectRatio>
+
     <aspectRatio name="16:9">
         <variables>
             <mdLblRatingPos>0.6 0.03</mdLblRatingPos>
@@ -68,46 +90,27 @@
         <view name="gamelist">
             <text name="md_lbl_rating">
                 <pos>${mdLblRatingPos}</pos>
-                <text>Rating:</text>
             </text>
 
             <text name="md_rating">
                 <pos>${mdRatingPos}</pos>
-                <metadata>rating</metadata>
             </text>
 
             <text name="md_lbl_players">
                 <pos>${mdLblPlayersPos}</pos>
-                <text>Players:</text>
             </text>
 
             <text name="md_players">
                 <pos>${mdPlayersPos}</pos>
-                <metadata>players</metadata>
             </text>
 
             <text name="md_lbl_genre">
                 <pos>${mdLblGenrePos}</pos>
-                <text>Genre:</text>
             </text>
 
             <text name="md_genre">
                 <pos>${mdGenrePos}</pos>
-                <metadata>genre</metadata>
-                <size>0.1 0.036</size>
             </text>
-
-            <image name="background">
-                <path>./../../assets/img/box.png</path>
-                <color>${carouselBackgroundColor}</color>
-                <pos>0 0</pos>
-                <size>1 1</size>
-                <zIndex>0</zIndex>
-            </image>
-
-            <grid name="systemCarousel">
-                <fractionalRows>true</fractionalRows>
-            </grid>
         </view>
     </aspectRatio> 
 </theme>

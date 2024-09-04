@@ -6,5 +6,8 @@
         <systemLogo>./assets/img/logos/${system.theme}.svg</systemLogo>
         <selectorImage>./assets/img/selector.svg</selectorImage>
         <sysBackground>./assets/img/backgrounds/${system.theme}.webp</sysBackground>
+        <langLabelRating>Rating:</langLabelRating>
+        <langLabelPlayers>Players:</langLabelPlayers>
+        <langLabelGenre>Genre:</langLabelGenre>
     </variables>
 </theme>
